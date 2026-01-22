@@ -200,4 +200,3 @@ else:
             ]
             hist_cols = [c for c in hist_cols if c in history.columns]
             st.dataframe(history[hist_cols], use_container_width=True, hide_index=True)
-
